@@ -14,7 +14,8 @@ class V2Char():
 
     def __init__(self, path):
         if path.endswith('txt'):
-            self.load(path)
+            #self.load(path)
+            pass
         else:
             self.genCharVideo(path)
 
@@ -76,5 +77,6 @@ class V2Char():
 
 
 if __name__ == '__main__':
-    v2char = V2Char()
-    v2char.genCharVideo('vedio.mp4')
+    #v2char = V2Char()
+    #v2char.genCharVideo('vedio.mp4')
+    v2char = V2Char('vedio.mp4')
